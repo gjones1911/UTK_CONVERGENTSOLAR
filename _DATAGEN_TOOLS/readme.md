@@ -12,7 +12,7 @@
      - add the deepsolar_tract.csv file here. Open the file and save it as an .xlsx file. 
    * _Data/NREL
      - add the seeds_ii_replica.csv file here
-2. Inside the _DATAGEN_TOOLS folder there is a notebook titled MergedData_Generator.ipynb. It will 
+2. Inside this folder there is a notebook titled MergedData_Generator.ipynb. It will 
    generate a merged data set as well as add the additional variables added adn calculated.  It 
    will make the data set if you either add the data sets as described above and run it as is, or 
    you can alter the paths to the DeepSolar and SEEDSII data sets when creating the 
