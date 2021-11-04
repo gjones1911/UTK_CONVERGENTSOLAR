@@ -41,6 +41,22 @@
 > the tools and code used to perform the analysis and build the model as well as the future home of the paper thw work is used to produce. 
 > This space is currently under construction. 
 
+# Project Steps:
+
+* Data Merger and analysis
+* Data Cleaning and normalization
+* Feature Importance Ranking based base model construction
+* Experimental Model construction
+    * model testing 
+    * subgroup testing
+    * Broke US into subgroups:
+        * full U.S. 
+        * High Solar: census tracts above the national average of daily solar radiation according to the DeepSolar(Stanford)  data set
+        * Hot Spots: census tracts that are in the 95th percentile of per household solar adoption. 
+        * T3: the top 3 states in per household solar adoption (CA, NV, AZ)
+    * Each subgroup was tested with the final U.S. model
+* Use Data set to visualize and analyze distribution of solar adoption at the census tract level using GIS tools
+
 
 # Generating Merged DeepSolar + SEEDS II REPLICA set
 1. Inside the _Data folder are two folders where you need to add the deepsolar and NREL seeds 2 data
