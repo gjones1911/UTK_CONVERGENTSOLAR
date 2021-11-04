@@ -31,6 +31,16 @@
     * performance_metrics.py
     * utility_fnc.py
 
+# Project Description
+> Using a merger of the DeepSolar and SEEDSII REPLICA data sets an analysis was made of the entire US, and several subsets 
+> of the US based on solar adoption rates, solar radiation in regard to finding the strongest most influental factors 
+> relating to per household solar adoption at the census tract level. A mixture of data and assumption driven techniques 
+> were employed to find an initial set of powerful predictive  socio-economic, climate, policy, physical suitability, 
+> and behavioral factors that drive solar adoption in an statistically significant way. Random Forest Regression was 
+> employed to find and rank a base set of variables to build a larger model around. This will contain demonstrations of 
+> the tools and code used to perform the analysis and build the model as well as the future home of the paper thw work is used to produce. 
+> This space is currently under construction. 
+
 
 # Generating Merged DeepSolar + SEEDS II REPLICA set
 1. Inside the _Data folder are two folders where you need to add the deepsolar and NREL seeds 2 data
